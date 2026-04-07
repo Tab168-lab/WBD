@@ -14,6 +14,7 @@ const values =[45,56,45,"hello",true];
 
 // Using For Of
 
+
 // for(let v of values){
 //     console.log("Using For OF",v);
 // }
