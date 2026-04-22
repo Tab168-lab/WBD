@@ -1,0 +1,39 @@
+
+
+
+
+<!-- ——-Regular Expression—— -->
+
+
+<script>
+    function validate(){
+        let value = document.getElementById("txtValue").value;
+        const pattern = /(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[^0-9a-zA-Z]).{8,30}/g;
+        if( pattern.test(value) ) {
+            document.write("It matched");
+        }else {
+            document.write("It doesn't match");
+        }
+    }
+</script>
+<form action="" method="post">
+    <input type="text" name="txtValue" id="txtValue">
+    <input type="button" onclick="validate()" value="Click Me" name="buttonClickMe">
+</form>
+
+
+<script>
+    function validate(){
+        let value = document.getElementById("txtValue").value;
+        const pattern = /^[\w\-\.]+@[\w\-\.]+\.[\w\-\.]{2,10}$/i;
+        if( pattern.test(value) ) {
+            document.write("It matched");
+        }else {
+            document.write("It doesn't match");
+        }
+    }
+</script>
+<form action="" method="post">
+    <input type="text" name="txtValue" id="txtValue">
+    <input type="button" onclick="validate()" value="Click Me" name="buttonClickMe">
+</form>
