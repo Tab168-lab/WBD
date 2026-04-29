@@ -69,45 +69,12 @@
 //     }
 // }
 
-// class Employee extends Person {
-//     getDetails() { 
-//         console.log("This is Employee"); 
-//         super.getDetails();
-//     }
-// }
-// const emp1 = new Employee();
-// emp1.getDetails();
-// console.log(emp1.value);
-
-// class MyClass{
-//     static result = 90;
-//     setResult(value) { MyClass.result = value;  }
-//     getResult() { return MyClass.result; }
-// }
-// let obj1 = new MyClass();
-// let obj2 = new MyClass();
-
-// obj1.setResult(100);
-// obj2.setResult(200);
-
-// console.log( obj2.getResult() );
-// console.log( obj1.getResult() );
-
-
-//object literal
-
-const books ={
-    id: 1,
-    title: "Avenger",
-    price: 30,
-    author: "Tab"
-};
-
-console.log("ID:",books.id)
-console.log("Title",books.title)
-console.log("Price",books.price)
-console.log("Author",books.author)
-
-const fs = require('fs');
-fs.writeFileSync('Test.txt', 'សួស្ដី Node.js!');
-
+class Employee extends Person {
+    getDetails() { 
+        console.log("This is Employee"); 
+        super.getDetails();
+    }
+}
+const emp1 = new Employee();
+emp1.getDetails();
+console.log(emp1.value);
