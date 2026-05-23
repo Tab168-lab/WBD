@@ -1,5 +1,26 @@
 {
+  "name": "wbd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ES module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tab168-lab/WBD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Tab168-lab/WBD/issues"
+  },
+  "homepage": "https://github.com/Tab168-lab/WBD#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "expresss": "^0.0.0"
   }
 }
