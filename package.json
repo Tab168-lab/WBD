@@ -21,6 +21,7 @@
   "homepage": "https://github.com/Tab168-lab/WBD#readme",
   "dependencies": {
     "express": "^5.2.1",
-    "expresss": "^0.0.0"
+    "expresss": "^0.0.0",
+    "nodemon": "^3.1.14"
   }
 }
